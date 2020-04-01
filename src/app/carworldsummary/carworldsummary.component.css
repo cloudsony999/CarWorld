@@ -1,0 +1,71 @@
+#top
+{
+    background-color: #273c75;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+}
+body{
+      
+     /*padding-top: 30px;*/
+    text-align: center;
+    height: 645px;
+    padding-bottom: 30px;
+    background-color: #ced6e0;
+}
+footer{
+    padding: 15px;
+    background-color: #273c75;
+    color: #ffffff;
+    line-height: 38px;
+}
+#exampleModal
+{
+    color: #000000;
+}
+.footer-btn
+{
+    float: right;
+}
+#topbar
+{
+    background-color: #c7ecee;
+    height: 50px;
+    color: #30336b;
+    padding: 1%;
+    font-size: 16px;
+}
+#nameClient
+{
+    float:left;
+}
+#clientDoB
+{
+    float: right;
+}
+#shipping
+{
+    background-color: #c7ecee;
+    text-align: left;
+    padding: 1%;
+    color: #30336b;
+}
+#mainBody
+{
+    height: 344px;
+    background-color: #ced6e0;
+}
+#imagebox
+{
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+#detailsbox
+{
+    padding: 1%;
+    float: right;
+    width: 50%;
+    text-align: left;
+    color: #30336b;
+}

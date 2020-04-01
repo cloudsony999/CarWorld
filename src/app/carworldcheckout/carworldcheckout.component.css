@@ -1,0 +1,30 @@
+#top
+{
+    background-color: #273c75;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+}
+body{
+      
+     padding-top: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+    height: 645px;
+    background-image: url("homepage.jpg");
+    color: #ffffff;
+}
+footer{
+    padding: 15px;
+    background-color: #273c75;
+    color: #ffffff;
+    line-height: 38px;
+}
+.footer-btn
+{
+    float: right;
+}
+#confirm
+{
+    padding-top: 230px;
+}

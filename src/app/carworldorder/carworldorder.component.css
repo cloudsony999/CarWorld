@@ -1,0 +1,50 @@
+#top
+{
+    background-color: #273c75;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+}
+body{
+      
+     padding-top: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+    background-image: url("homepage.jpg");
+    height: 670px;
+    color: white;
+}
+#footer_btn
+{
+    float: right;
+}
+footer{
+    padding: 15px;
+    background-color: #273c75;
+    color: #ffffff;
+    line-height: 38px;
+}
+#frm_display
+{
+    width: 30%;
+}
+.card-body
+{
+background-color: #FFBB99;
+opacity: 0.9;
+}
+#drop1, #drop2
+{
+    width: 500px;
+    border-radius: 25px;
+    font-size: 18px;
+    outline: none;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom:5px;
+}
+#l1, #l2
+{
+    font-size: 18px;
+}
+

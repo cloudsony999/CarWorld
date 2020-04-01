@@ -1,0 +1,17 @@
+#top
+{
+    background-color: #273c75;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+}
+body{
+    padding-top: 300px;
+    text-align: center;
+    background-image: url("homepage.jpg");
+    height: 713px;
+}
+.btn-primary
+{
+    width: 20%;
+}

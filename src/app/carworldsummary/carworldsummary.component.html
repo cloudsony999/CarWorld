@@ -1,0 +1,65 @@
+<header id="top">
+  <h1>Order Summary</h1>
+</header>
+
+<body>
+  <div id="topbar">
+    <span id="nameClient">Dear <strong>{{firstName}} {{middleName}} {{lastName}}</strong>, {{gender}}</span>
+    <span id="clientDoB">Date of Birth: <strong>{{dob | date}}</strong></span>
+  </div>
+  <div id="mainBody">
+    <span id="imagebox">
+      <!--<img [src]="image" width="700px" height="344px">-->
+      <img src="./../assets/Images/Audi_Q1.jpg" width="700px" height="344px">
+    </span>
+    <span id="detailsbox">
+      <h2>{{carMake}} {{modelMake}}</h2><br>
+      <h2>Price: {{price}}</h2>
+    </span>
+  </div>
+  <div id="shipping">
+    <div id="details">
+      <hr>
+      <h5>Shipping Details:</h5>
+      <hr>
+      <h6>Name: {{firstName}} {{middleName}} {{lastName}}</h6>
+      <h6>Address: {{inputAddress}}</h6>
+      <h6>Email: {{inputEmail}}</h6>
+      <h6>Phone No.: {{phone}}</h6>
+      <hr>
+    </div>
+  </div>
+</body>
+<footer>
+  <div class="bottom">
+    Designed by TCS
+    <span class="footer-btn">
+      <button routerLink="/neworder" class="btn btn-primary" id="back" role="button">Back</button>&nbsp;
+      <button type="button" class="btn btn-primary" id="next" data-toggle="modal" data-target="#exampleModal">
+        Next
+      </button>
+
+      <!-- Modal -->
+      <div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Confirm?</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              Are you confirm?
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" routerLink="/checkout" data-dismiss="modal" class="btn btn-primary">Yes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>
+</footer>

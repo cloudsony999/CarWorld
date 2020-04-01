@@ -1,0 +1,40 @@
+<header id="top">
+  <h1>Create New Order</h1>
+</header>
+
+<body>
+  <div>
+    <label id="l1">Select a Brand &nbsp;</label><br>
+    <select [(ngModel)]="carMake" (change)="selectModel()" id="drop1">
+      <option selected disabled value="null">Select a Brand</option>
+      <option *ngFor="let car of cardata" [ngValue]="car.name">{{car.name}}</option>
+    </select>
+  </div>
+  <hr *ngIf="carMake">
+  <div *ngIf="carMake">
+    <label id="l2">Select a Model &nbsp;</label><br>
+    <select [(ngModel)]="modelMake" id="drop2">
+      <option class="a" selected disabled value="null">Select a Model</option>
+      <option class="a" *ngFor="let j of modelData" [ngValue]="j.modelId">{{j.modelId}}</option>
+    </select>
+
+  </div>
+  <hr *ngIf="carMake && modelMake">
+  <div *ngIf="carMake && modelMake">
+    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+      aria-expanded="false" aria-controls="collapseExample" id="frm_display">
+      Personal Details
+    </button>
+  </div>
+  <div class="collapse" id="collapseExample">
+    <div class="card card-body">
+      <app-formdata #formData [party]="party"></app-formdata>
+    </div>
+  </div>
+
+</body>
+<footer>
+  Designed by TCS
+  <button *ngIf="carMake && modelMake" type="button" class="btn btn-primary" id="footer_btn"
+    (click)="onNext()">Next</button>
+</footer>

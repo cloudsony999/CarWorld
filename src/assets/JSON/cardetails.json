@@ -1,0 +1,174 @@
+[
+    {
+        "name" : "Audi",
+        "model" : [
+            {
+                "modelId" : "Q1",
+                "price" : "6 Crore",
+                "Image" : "CarWorld/src/assets/Images/Audi_Q1.jpg"
+            },
+            {
+                "modelId" : "A3",
+                "price" : "9 Crore"
+            },
+            {
+                "modelId" : "A6",
+                "price" : "7 Crore"
+            }
+        ]
+    },
+    {
+        "name" : "BMW",
+        "model" : [
+            {
+                "modelId" : "X3",
+                "price" : "6 Crore"
+            },
+            {
+                "modelId" : "X4",
+                "price" : "9 Crore"
+            },
+            {
+                "modelId" : "X5",
+                "price" : "7 Crore"
+            }
+        ]
+    },
+    {
+        "name" : "Porsche",
+        "model" : [
+            {
+                "modelId" : "Cayenne",
+                "price" : "6 Crore"
+            },
+            {
+                "modelId" : "Panamera",
+                "price" : "9 Crore"
+            },
+            {
+                "modelId" : "Boxxter",
+                "price" : "7 Crore"
+            }
+        ]
+    },
+    {
+        "name" : "Jaguar",
+        "model" : [
+            {
+                "modelId" : "XJ",
+                "price" : "6 Crore"
+            },
+            {
+                "modelId" : "XF",
+                "price" : "9 Crore"
+            },
+            {
+                "modelId" : "XE",
+                "price" : "7 Crore"
+            }
+        ]
+    },
+    {
+        "name" : "Lamborghini",
+        "model" : [
+            {
+                "modelId" : "Huracan",
+                "price" : "6 Crore"
+            },
+            {
+                "modelId" : "Aventador",
+                "price" : "9 Crore"
+            },
+            {
+                "modelId" : "Urus",
+                "price" : "7 Crore"
+            }
+        ]
+    },
+    {
+        "name" : "Ford",
+        "model" : [
+            {
+                "modelId" : "Mustang",
+                "price" : "56 Lakh"
+            },
+            {
+                "modelId" : "Ecosport",
+                "price" : "9 Lakh"
+            },
+            {
+                "modelId" : "Figo",
+                "price" : "7 Lakh"
+            }
+        ]
+    },
+    {
+        "name" : "Hyundai",
+        "model" : [
+            {
+                "modelId" : "i10",
+                "price" : "8 Lakh"
+            },
+            {
+                "modelId" : "i20",
+                "price" : "10 Lakh"
+            },
+            {
+                "modelId" : "Verna",
+                "price" : "14 Lakh"
+            }
+        ]
+    },
+    {
+        "name" : "Tata",
+        "model" : [
+            {
+                "modelId" : "Nexon",
+                "price" : "12 Lakh"
+            },
+            {
+                "modelId" : "Tiago",
+                "price" : "10 Lakh"
+            },
+            {
+                "modelId" : "Harrier",
+                "price" : "8 Lakh"
+            }
+        ]
+    },
+    {
+        "name" : "Honda",
+        "model" : [
+            {
+                "modelId" : "City",
+                "price" : "14 Lakh"
+            },
+            {
+                "modelId" : "Civic",
+                "price" : "20 Lakh"
+            },
+            {
+                "modelId" : "CR-V",
+                "price" : "25 Lakh"
+            }
+        ]
+    },
+    {
+        "name" : "Suzuki",
+        "model" : [
+            {
+                "modelId" : "Baleno",
+                "price" : "8 Lakh"
+            },
+            {
+                "modelId" : "Brezza",
+                "price" : "10 Lakh"
+            },
+            {
+                "modelId" : "Celerio",
+                "price" : "12 Lakh"
+            }
+        ]
+    }
+]
+
